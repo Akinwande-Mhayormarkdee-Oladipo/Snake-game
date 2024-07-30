@@ -60,7 +60,7 @@ while game_is_on:
             # snake.reset()
             # food.reset()
             score.game_over()
-            
+
 
 
 
