@@ -31,3 +31,8 @@ class Scoreboard(Turtle):
         """Show game over message"""
         self.goto(0, 0)
         self.write("Game Over!", align=ALIGN, font=FONT_TUPLE)
+
+    def reset_score(self):
+        """Reset the score"""
+        self.score = 0
+        self.update_scoreboard()
